@@ -1,0 +1,11 @@
+
+1	
+2	mafft LOC102734984_Editado.fasta > LOC102734984_results.fasta
+3	pwd
+4	cd iqtree-2.2.0-MacOSX/
+5	cd bin
+6	export IQTREE=/Users/Desktop/iqtree-2.2.0-MacOSX/bin/iqtree2
+7	cd Pinnipedos
+8	cd data	
+9	$IQTREE
+10	$IQTREE -s LOC102734984_results.fasta -B 1000
