@@ -1,0 +1,28 @@
+
+  501  mafft input.txt > output.txt
+  502  cd Desktop
+  503  cd Pinnipedos
+  504  mafft LOC102734984_Editado.fasta > LOC102734984_results.fasta
+  505  ls 
+  506  pwd
+  507  cd ..
+  508  pwd
+  509  cd iqtree-2.2.0-MacOSX/
+  510  ls
+  511  cd bin
+  512  pwd
+  513  export IQTREE=/Users/camilayanez/Desktop/iqtree-2.2.0-MacOSX/bin/iqtree2
+  514  $IQTREE
+  515  cd ..
+  516  cd ..
+  517  pwd
+  518  cd Pinnipedos
+  519  cd data
+  520  $IQTREE -s LOC102734984_results.fasta -B 1000
+  521  pwd
+  522  cd ..
+  523  ls
+  524  cd results/
+  525  ls
+  526  cd Filogenia.png 
+  527  history > scripts_alineacion.txt

@@ -1,0 +1,13 @@
+  
+  499  cd Desktop
+  500  pwd
+  501  cd ..
+  502  git init
+  503  git status
+  504  git add .
+  505  git commit -m "agregando proyecto final"
+  506  git remote add origin git@github.com:BelenCamila/Pinnipedos.git
+  507  git status
+  508  git push -u origin main
+  509  history > github_upload.txt
+
